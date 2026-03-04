@@ -1,11 +1,11 @@
 {
 	"site": {
-		"name": "Adrien Segalat",
-		"title": "Adrien Segalat — Portfolio",
-		"description": "Portfolio d'Adrien Segalat — Développeur full-stack web et mobile",
+		"name": "Hafsa Dini",
+		"title": "Hafsa Dini — Portfolio",
+		"description": "Portfolio de Hafsa Dini — Ingénieure en logiciels et systèmes d'informations",
 		"lang": "fr",
 		"themeColor": "#151e16",
-		"url": "https://adrien-segalat.fr"
+		"url": "https://hafsa-dini.fr"
 	},
 
 	"theme": {
@@ -24,7 +24,7 @@
 	},
 
 	"hero": {
-		"displayName": "ADRIEN",
+		"displayName": "Hafsa",
 		"scrollLabel": "Scroll to explore",
 		"loadingLabel": "Loading... {{progress}}%",
 		"enterLabel": "ENTER WEBSITE",
@@ -33,12 +33,12 @@
 	},
 
 	"about": {
-		"title": "Développeur full-stack, web et application mobile",
-		"paragraph": "Je suis alternant chez Therasoft en Bachelor C.D.W.M. (Concepteur Développeur Web et Mobile) passionné par le développement web, le design, et grand amateur de basket-ball. Créatif et curieux, j'aime allier technique et esthétique dans mes projets.",
+		"title": "Ingénieur logiciels et systèmes d'informations",
+		"paragraph": "Élève ingénieure à l’EFREI PARIS à Bordeaux, passionnée par le développement logiciel et web. Après 15 mois d’alternance sur une application en C#/.NET, je recherche une alternance Full Stack (Java/Spring/C#/.NET). Curieuse et créative, je combine technique, qualité et travail en équipe.",
 		"cv": {
 			"label": "Télécharger mon CV",
-			"path": "/CV-Adrien.pdf",
-			"filename": "CV-Adrien-Segalat.pdf"
+			"path": "/CV_Hafsa_Dini.pdf",
+			"filename": "CV_Hafsa_Dini.pdf"
 		},
 		"image": {
 			"src": "/img/about-silhouette-in-forest.jpg",
@@ -80,7 +80,7 @@
 	},
 
 	"footer": {
-		"name": "Adrien Segalat",
+		"name": "Hafsa Dini",
 		"template": "{{year}} {{name}}. Tous droits réservés."
 	},
 
@@ -99,12 +99,12 @@
 
 	"social": [
 		{
-			"url": "https://www.linkedin.com/in/adrien-segalat",
+			"url": "https://www.linkedin.com/in/hafsadini/",
 			"icon": "iconoir:linkedin",
 			"label": "Visiter mon profil LinkedIn"
 		},
 		{
-			"url": "https://github.com/ADsglt77",
+			"url": "https://github.com/Hadis010",
 			"icon": "iconoir:github",
 			"label": "Visiter mon profil GitHub"
 		}
@@ -112,10 +112,10 @@
 
 	"techMap": {
 		"vue": { "icon": "devicon:vuejs", "label": "VueJS" },
-		"nuxt": { "icon": "devicon:nuxt", "label": "NuxtJS" },
+		"csharp": { "icon": "devicon:csharp", "label": "Csharp" },
 		"ts": { "icon": "devicon:typescript", "label": "TypeScript" },
 		"php": { "icon": "devicon:php", "label": "PHP" },
-		"symfony": { "icon": "mdi:symfony", "label": "Symfony" },
+		"dotNet": { "icon": "skill-icons:dotnet", "label": "Dotnet" },
 		"css": { "icon": "devicon:css3", "label": "CSS" },
 		"scss": { "icon": "vscode-icons:file-type-scss", "label": "SCSS" },
 		"docker": { "icon": "devicon:docker", "label": "Docker" },
@@ -123,14 +123,14 @@
 		"cloudflare": { "icon": "devicon:cloudflare", "label": "Cloudflare" },
 		"mysql": { "icon": "devicon:mysql", "label": "MySQL" },
 		"postgres": { "icon": "devicon:postgresql", "label": "PostgreSQL" },
-		"angular": { "icon": "devicon:angular", "label": "Angular" },
-		"express": { "icon": "devicon:express", "label": "Express" },
-		"dart": { "icon": "devicon:dart", "label": "Dart" },
-		"flutter": { "icon": "devicon:flutter", "label": "Flutter" },
+		"dotnet core": { "icon": "devicon:dotnetcore", "label": "Dotnet Core" },
+		"json": { "icon": "vscode-icons:file-type-light-json", "label": "JSON" },
+		"swagger": { "icon": "material-icon-theme:swagger", "label": "Swagger" },
+		"tests unitaires": { "icon": "material-icon-theme:test-ts", "label": "Tests unitaires" },
 		"android": { "icon": "devicon:android", "label": "Android" },
 		"linux": { "icon": "devicon:linux", "label": "Linux" },
 		"python": { "icon": "devicon:python", "label": "Python" },
-		"photoshop": { "icon": "devicon:photoshop", "label": "Photoshop" },
+		"github actions": { "icon": "devicon:githubactions", "label": "Github Actions" },
 		"bdd": { "icon": "devicon:azuresqldatabase", "label": "BDD" },
 		"cursor": { "icon": "devicon:cursor", "label": "Cursor" },
 		"github": { "icon": "iconoir:github", "label": "GitHub" },
@@ -158,86 +158,68 @@
 
 	"timeline": [
 		{
-			"date": "2020/2021",
-			"organization": "Lycée Turgot (Limoges)",
-			"role": "Seconde (option SI-CIT)",
-			"description": "Baccalauréat général",
+			"date": "2024/2027",
+			"organization": "Ecole EFREI PARIS (Bordeaux)",
+			"role": "Cycle ingénieur en alternance LSI",
+			"description": "Cycle ingénieur en alternance LSI (Logiciels & Systèmes d’Information) à l’EFREI PARIS à Bordeaux, spécialisé en développement logiciel, web et gestion de projets IT, avec une forte expérience professionnelle intégrée.",
 			"type": "formation"
 		},
 		{
-			"date": "Mars 2020",
-			"organization": "Police Nationale",
-			"role": "Stage de trois jours",
-			"type": "work"
-		},
-		{
-			"date": "2021/2022",
-			"organization": "Lycée Turgot (Limoges)",
-			"role": "Première (Maths/NSI/Physique-Chimie)",
-			"description": "Baccalauréat général",
+			"date": " 2021/2024",
+			"organization": "UBO (Université de Bretagne Occidentale à Brest)",
+			"role": "2ème année licence informatique obtenue",
 			"type": "formation"
 		},
 		{
-			"date": "Juin 2021",
-			"organization": "Flexocolor",
-			"role": "Stage d'une semaine",
-			"description": "Photogravure, découverte métier + journée avec gestionnaire informatique + responsable site web",
-			"type": "work"
-		},
-		{
-			"date": "2022/2023",
-			"organization": "Lycée Turgot (Limoges)",
-			"role": "Terminale (Maths/NSI)",
-			"description": "Baccalauréat général obtenu",
+			"date": "22020/2021",
+			"organization": "Lycée Charif El Idrissi (Casablanca)",
+			"role": "Baccalauréat physique-chimie option internationale en français",
+			"description": "Baccalauréat international physique-chimie en français. Programme scientifique complet favorisant l’analyse, la rigueur et le raisonnement scientifique.",
 			"type": "formation"
 		},
 		{
-			"date": "2023/2024",
-			"organization": "Lycée Valadon (Limoges)",
-			"role": "BTS SIO (Services Informatiques aux Organisations) - 1ère année",
-			"description": "Option \"Certification\"",
+			"date": "2024/2026",
+			"organization": "Stan Soft (Bordeaux)",
+			"role": "Analyste développeuse",
+			"description": "Participation à la création et maintenance d’une application de gestion de caves à vin en C# et .NET, mise en place de tests automatisés et travail en équipe.",
+			"type": "work"
+		},
+		{
+			"date": "juin 2023 - août 2023",
+			"organization": "ONEE (Office National de l'Electricité et de l'Eau à Casablanca)",
+			"role": "Stage en réseau et cybersécurité",
+			"description": "Revue et optimisation du plan de routage de systèmes de Cybersécurité des SI de l'ONEE–BE (réalisation d’un projet via C et python)",
+			"type": "stage"
+		},
+		{
+			"date": "juin 2022 - août 2022",
+			"organization": "ONEE (Office National de l'Electricité et de l'Eau à Casablanca)",
+			"role": "Stage en réseau",
+			"description": "Actualisation des procédures d'exploitation et de maintenance des infrastructures de réseaux informatiques des SI de l'ONEE–BE",
+			"type": "stage"
+		},
+		{
+			"date": "2022/2024",
+			"organization": "CROUS (Brest)",
+			"role": "Agent d'accueil",
+			"description": "Accueil des étudiants, gestion administrative des dossiers et traitement des demandes, contribuant au bon fonctionnement quotidien des services universitaires.",
+			"type": "work"
+		},
+		{
+			"date": "2021/2024",
+			"organization": "Si t'es u (Brest)",
+			"role": "Chargée de communication",
+			"description": "Piloter l’image et la visibilité de la structure à travers des contenus engageants et une communication efficace",
+			"type": "work"
+		},
+		{		
+			"date": "2025-actuellement",
+			"organization": "Efrei à table (Bordeaux)",
+			"role": "Trésorière",
+			"description": "Gèrer et sécurise les finances de la structure en garantissant une utilisation rigoureuse et transparente des ressources.",
 			"type": "formation"
-		},
-		{
-			"date": "Mai/Juin 2024",
-			"organization": "Broussaud Textile",
-			"role": "Stage de cinq semaines",
-			"description": "Symfony/PHP, migration API REST vers GraphQL, découverte rôle dev en entreprise",
-			"type": "work"
-		},
-		{
-			"date": "Depuis Mai 2024",
-			"organization": "Super U (Aixe-Sur-Vienne / Limoges)",
-			"role": "Job étudiant (Grande surface)",
-			"type": "work"
-		},
-		{
-			"date": "2024/2025",
-			"organization": "Lycée Valadon (Limoges)",
-			"role": "BTS SIO (Services Informatiques aux Organisations) - 2ème année",
-			"description": "Major de promotion",
-			"type": "formation"
-		},
-		{
-			"date": "Janvier/Février 2025",
-			"organization": "Condat Basket Club",
-			"role": "Stage de sept semaines",
-			"description": "Site vitrine + dashboard, NuxtJS/Vue/TypeScript/Prisma",
-			"type": "work"
-		},
-		{
-			"date": "2025/2026",
-			"organization": "Beaupeyrat (Limoges)",
-			"role": "Bachelor C.D.W.M. (Concepteur Développeur Web et Mobile)",
-			"type": "formation"
-		},
-		{
-			"date": "Depuis Septembre 2025",
-			"organization": "Therasoft",
-			"role": "Alternant - Développeur full-stack",
-			"description": "Alternance en parallèle du Bachelor C.D.W.M.",
-			"type": "work"
 		}
+		
 	],
 
 	"projects": {
@@ -251,26 +233,25 @@
 		},
 		"items": [
 			{
-				"id": "condat",
-				"title": "Projet Basket Club",
-				"description": "Ce projet consiste à créer un site vitrine pour le Club de Basket de Condat. Il mettra en avant les valeurs du club, ses licenciés et ses produits. Avec ce site vitrine un Dashboard sera développé pour les gérants du club, il permettra la mise à jour du site facilement et rapidement. Pour cela j'utiliserai le Framework NuxtJS",
+				"id": "Labyrinth",
+				"title": "Projet labyrinthe ",
+				"description": "Ce projet consiste à développer un programme capable d’explorer automatiquement un labyrinthe à l’aide de plusieurs agents appelés crawlers. Le client communique avec un serveur via une API afin de cartographier le labyrinthe, collecter des clés, ouvrir des portes et trouver efficacement la sortie grâce à des stratégies d’exploration et de concurrence.",
 				"technologies": [
-					"nuxt",
-					"vue",
-					"ts",
-					"prisma",
-					"css",
-					"cloudflare",
-					"docker"
+					"Csharp",
+					"Dotnet",
+					"Dotnet Core",
+					"JSON",
+					"Swagger",
+					"Tests unitaires",
+					"Github Actions"
 				],
 				"links": {
-					"website": "https://condatbasketclub.com/",
-					"github": "https://github.com/Condat-Basket-Club"
+					"github": "https://github.com/Hadis010/labyrinth"
 				},
-				"poster": "/projects/poster/condat.jpg"
+				"poster": "/projects/poster/labyrinth.jpg"
 			},
 			{
-				"id": "therasoft",
+				"id": "",
 				"title": "Portail Médecin",
 				"description": "Application web type portail médecin en monorepo : frontend Angular 19 et API Express. Elle propose une interface pour les médecins, une API REST sécurisée (JWT, argon2), une base PostgreSQL gérée avec Prisma, et un déploiement via Docker Compose avec Nginx. Le frontend utilise Angular 19 et Lucide pour l'UI.",
 				"technologies": [
@@ -289,9 +270,9 @@
 				"poster": "/projects/poster/therasoft.jpg"
 			},
 			{
-				"id": "bibliotheque",
-				"title": "Projet Bibliothèque",
-				"description": "Ce projet consiste à créer une application mobile pour une bibliothèque pouvant gérer des livres, des auteurs et des utilisateurs et les lier. Il a été développé en utilisant Android Studio avec Flutter et Dart pour répondre à la demande de la bibliothèque.",
+				"id": "Mobilex ",
+				"title": "Projet mobilex",
+				"description": " Projet de robotique utilisant visant à concevoir un robot mobile capable de réaliser un stationnement automatique à l’aide de capteurs. Le robot Mobilex peut également être piloté manuellement via une télécommande infrarouge, permettant d’alterner entre mode autonome et contrôle utilisateur.",
 				"technologies": ["dart", "flutter", "android"],
 				"links": {
 					"github": "https://github.com/ADsglt77/bibliotheque"
