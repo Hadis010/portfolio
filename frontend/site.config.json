@@ -28,7 +28,7 @@
 		"scrollLabel": "Scroll to explore",
 		"loadingLabel": "Loading... {{progress}}%",
 		"enterLabel": "ENTER WEBSITE",
-		"backgroundImage": "/img/hero-misty-forest.jpg",
+		"backgroundImage": "/img/background.jpg",
 		"ambientSound": "/sound/Flickering-Flames.mp3"
 	},
 
@@ -41,7 +41,7 @@
 			"filename": "CV_Hafsa_Dini.pdf"
 		},
 		"image": {
-			"src": "/img/about-silhouette-in-forest.jpg",
+			"src": "/img/about.jpg",
 			"alt": "About"
 		}
 	},
@@ -49,7 +49,7 @@
 	"contact": {
 		"title": "Contactez moi",
 		"image": {
-			"src": "/img/contact-campfire-night.jpg",
+			"src": "/img/contact.jpg",
 			"alt": "Contact"
 		},
 		"form": {
@@ -111,49 +111,60 @@
 	],
 
 	"techMap": {
-		"vue": { "icon": "devicon:vuejs", "label": "VueJS" },
-		"csharp": { "icon": "devicon:csharp", "label": "Csharp" },
+		"vue": { "icon": "devicon:vuejs", "label": "Vue.js" },
+		"csharp": { "icon": "devicon:csharp", "label": "C#" },
 		"ts": { "icon": "devicon:typescript", "label": "TypeScript" },
 		"php": { "icon": "devicon:php", "label": "PHP" },
-		"dotNet": { "icon": "skill-icons:dotnet", "label": "Dotnet" },
+		"dotnet": { "icon": "skill-icons:dotnet", "label": ".NET" },
 		"css": { "icon": "devicon:css3", "label": "CSS" },
-		"c": { "icon": "streamline-logos:c-language-logo-solid", "label": "C" },
+		"html": { "icon": "devicon:html5", "label": "HTML5" },
+		"js": { "icon": "devicon:javascript", "label": "JavaScript" },
+		"c": { "icon": "devicon:c", "label": "C" },
 		"docker": { "icon": "devicon:docker", "label": "Docker" },
-		"prisma": { "icon": "devicon:prisma", "label": "Prisma" },
-		"cloudflare": { "icon": "devicon:cloudflare", "label": "Cloudflare" },
 		"mysql": { "icon": "devicon:mysql", "label": "MySQL" },
-		"postgres": { "icon": "devicon:postgresql", "label": "PostgreSQL" },
-		"dotnet core": { "icon": "devicon:dotnetcore", "label": "Dotnet Core" },
-		"json": { "icon": "vscode-icons:file-type-light-json", "label": "JSON" },
-		"swagger": { "icon": "material-icon-theme:swagger", "label": "Swagger" },
-		"tests unitaires": { "icon": "material-icon-theme:test-ts", "label": "Tests unitaires" },
-		"android": { "icon": "devicon:android", "label": "Android" },
-		"linux": { "icon": "devicon:linux", "label": "Linux" },
+		"dotnet-core": { "icon": "devicon:dotnetcore", "label": ".NET Core" },
+		"json": { "icon": "vscode-icons:file-type-json", "label": "JSON" },
+		"swagger": { "icon": "simple-icons:swagger", "label": "Swagger" },
+		"tests-unitaires": { "icon": "catppuccin:folder-tests-open", "label": "Tests unitaires" },
+		"bootstrap": { "icon": "devicon:bootstrap", "label": "Bootstrap" },
+		"robotc": { "icon": "icon-park:robot-one", "label": "ROBOTC" },
+		"lego": { "icon": "ph:lego", "label": "LEGO" },
+		"ev3": { "icon": "mdi:robot", "label": "EV3" },
+		"embedded": { "icon": "devicon:embeddedc", "label": "Embedded" },
+		"robotics": { "icon": "mdi:robot", "label": "Robotique" },
+		"xml": { "icon": "vscode-icons:file-type-xml", "label": "XML" },
 		"python": { "icon": "devicon:python", "label": "Python" },
-		"github actions": { "icon": "devicon:githubactions", "label": "Github Actions" },
-		"bdd": { "icon": "devicon:azuresqldatabase", "label": "BDD" },
+		"tkinter": { "icon": "devicon:python", "label": "Tkinter" },
+		"linux": { "icon": "devicon:linux", "label": "Linux" },
+		"bdd": { "icon": "streamline-color:database", "label": "BDD" },
 		"cursor": { "icon": "devicon:cursor", "label": "Cursor" },
-		"github": { "icon": "iconoir:github", "label": "GitHub" },
-		"bun": { "icon": "devicon:bun", "label": "Bun" },
-		"npm": { "icon": "devicon:npm", "label": "npm" },
-		"robotic": { "icon": "hugeicons:robotic", "label": "Robotic" }
+		"github": { "icon": "iconoir:github", "label": "GitHub" }
 	},
 
 	"technologiesBanner": [
 		"vue",
-		"symfony",
-		"nuxt",
 		"php",
+		"html",
 		"css",
+		"js",
+		"c",
+		"csharp",
+		"python",
+		"tkinter",
+		"dotnet",
+		"dotnet-core",
+		"docker",
+		"mysql",
+		"swagger",
+		"tests-unitaires",
 		"linux",
-		"ts",
-		"photoshop",
 		"bdd",
 		"cursor",
-		"docker",
-		"python",
 		"github",
-		"flutter"
+		"embedded",
+		"robotics",
+		"xml",
+		"bootstrap"
 	],
 
 	"timeline": [
@@ -234,72 +245,86 @@
 		"items": [
 			{
 				"id": "Labyrinth",
-				"title": "Projet labyrinthe ",
+				"title": "Labyrinthe ",
 				"description": "Ce projet consiste à développer un programme capable d’explorer automatiquement un labyrinthe à l’aide de plusieurs agents appelés crawlers. Le client communique avec un serveur via une API afin de cartographier le labyrinthe, collecter des clés, ouvrir des portes et trouver efficacement la sortie grâce à des stratégies d’exploration et de concurrence.",
 				"technologies": [
-					"Csharp",
-					"Dotnet",
-					"Dotnet Core",
-					"JSON",
-					"Swagger",
-					"Tests unitaires",
-					"Github Actions"
+					"csharp",
+					"dotnet",
+					"dotnet-core",
+					"json",
+					"swagger",
+					"tests-unitaires"
 				],
 				"links": {
 					"github": "https://github.com/Hadis010/labyrinth"
 				},
-				"poster": "/projects/poster/labyrinth.jpg"
+				"poster": "/projects/poster/project-1.jpg"
 			},
 			{
-				"id": "",
-				"title": "Portail Médecin",
-				"description": "Application web type portail médecin en monorepo : frontend Angular 19 et API Express. Elle propose une interface pour les médecins, une API REST sécurisée (JWT, argon2), une base PostgreSQL gérée avec Prisma, et un déploiement via Docker Compose avec Nginx. Le frontend utilise Angular 19 et Lucide pour l'UI.",
+				"id": "mobilex",
+				"title": "Mobilex — Robotique",
+				"description": "Projet de robotique avec LEGO Mindstorms EV3 : le robot Mobilex réalise un parking automatique (détection d'obstacles au capteur ultrason, recul et rotation) et peut être piloté manuellement via une télécommande IR. Développé en C avec ROBOTC, avec deux modes (manuel / automatique) et affichage d’informations sur l’écran de la brique EV3.",
 				"technologies": [
-					"angular",
-					"express",
-					"ts",
-					"prisma",
-					"postgres",
-					"scss",
-					"docker"
+					"c",
+					"robotc",
+					"lego",
+					"ev3",
+					"embedded",
+					"robotics"
 				],
-				"links": {
-					"website": "https://therasoft.adrien-segalat.fr/",
-					"github": "https://github.com/ADsglt77/therasoft"
-				},
-				"poster": "/projects/poster/therasoft.jpg"
-			},
-			{
-				"id": "Mobilex ",
-				"title": "Projet mobilex",
-				"description": " Projet de robotique utilisant LEGO Mindstorms EV3 afin de concevoir un robot mobile capable de réaliser un stationnement automatique à l’aide de capteurs. Le robot Mobilex peut également être piloté manuellement via une télécommande infrarouge, permettant d’alterner entre mode autonome et contrôle utilisateur.",
-				"technologies": ["Robotic", "C"],
 				"links": {
 					"github": "https://github.com/Hadis010/Mobilex-Project/"
 				},
 				"video": "/projects/videos/mobilex.mp4",
-				"poster": "/projects/poster/mobilex.jpg"
+				"poster": "/projects/poster/project-2.jpg"
 			},
 			{
-				"id": "space invaders",
-				"title": "Projet Space invaders",
-				"description": "Cet atelier professionnel a pour but de réaliser une application web, à l'aide du Framework PHP Symfony. Cette application reprend le contexte d'un site de jardinerie, qui doit permettre de pourvoir créer des devis avec un ou plusieurs taillages de haies dans le même devis.",
-				"technologies": ["php", "symfony", "css"],
+				"id": "sitesu",
+				"title": "Si t'es U",
+				"description": "Site vitrine pour l'association étudiante Si t'es U (cités universitaires du CLOUS de Brest). Présentation de l'association, de ses objectifs et des cités (Kergoat, Bouguen, Lanrédec), page Événements avec diaporama, page Membres du bureau, et formulaire de contact/collaborations. Réalisé en HTML/CSS/JS pur, sans framework. Projet L2 Informatique (Brest).",
+				"technologies": [
+					"html",
+					"css",
+					"js",
+					"xml"
+				],
 				"links": {
-					"github": "https://github.com/Hadis010/Space-Invaders-Project/"
+					"github": "https://github.com/Hadis010/Page_Si_t-es_u"
 				},
-				"video": "/projects/videos/space_invaders.mp4",
-				"poster": "/projects/poster/space_invaders.jpg"
+				"poster": "/projects/poster/project-3.jpg"
 			},
 			{
-				"id": "resto",
-				"title": "Projet Resto",
-				"description": "Ce projet consiste à créer un site web pour un restaurant où l'on peut se connecter, liker des restaurants, mettre des commentaires et rechercher les restaurants selon certains critères.",
-				"technologies": ["php", "mysql", "css"],
+				"id": "space-invaders",
+				"title": "Space Invaders",
+				"description": "Jeu Space Invaders développé en Python dans le cadre du cours de Programmation et Conception Orientées Objet (PCO). Le joueur pilote un vaisseau en bas de l'écran et doit détruire une flotte d'aliens. Le projet inclut un écran d'accueil avec saisie du nom, un système de score en temps réel, des écrans de victoire et défaite, et une persistance des scores en JSON. L'architecture est entièrement orientée objet (classes Game, Defender, Bullet, Alien, Fleet, Score, Resultat).",
+				"technologies": [
+					"python",
+					"tkinter",
+					"json"
+				],
 				"links": {
-					"github": "https://github.com/ADsglt77/r3st0"
+					"github": "https://github.com/Hadis010/Space-Invaders-Project"
 				},
-				"poster": "/projects/poster/resto.jpg"
+				"video": "/projects/videos/SpaceInvaders.mp4",
+				"poster": "/projects/poster/project-4.jpg"
+			},
+			{
+				"id": "bijoux-recycles",
+				"title": "BijouRecycle — Site association Bijoux Recyclés",
+				"description": "Site vitrine et back-office pour une association qui recycle des bijoux au profit d’associations caritatives. Présentation de l’association, catalogue de bijoux recyclés, actualités, témoignages, événements et FAQ. Formulaire d’inscription, récapitulatif des sujets/fiches issus de la base, et espace administrateur (connexion, gestion des sujets et des comptes). Réalisé en PHP avec MySQLi, interface basée sur Bootstrap et un template Mobirise, avec JavaScript pour les animations et les galeries.",
+				"technologies": [
+					"php",
+					"mysql",
+					"html",
+					"css",
+					"js",
+					"bootstrap"
+				],
+				"links": {
+					"website": "",
+					"github": "https://github.com/Hadis010/Bijoux-Recycles-Projet"
+				},
+				"poster": "/projects/poster/project-5.jpg"
 			}
 		]
 	}
