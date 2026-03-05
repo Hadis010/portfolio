@@ -1,4 +1,4 @@
-# Portfolio — Adrien Segalat
+# Portfolio — Hafsa DINI
 
 Portfolio personnel configurable construit avec **Vue 3**, **TypeScript** et **Vite**.  
 Toute la personnalisation (textes, couleurs, projets, timeline…) se fait via un seul fichier JSON.
@@ -134,7 +134,7 @@ frontend/public/
 │   ├── poster/             # Posters des projets (.jpg)
 │   └── videos/             # Vidéos des projets (.mp4)
 ├── sound/                  # Son ambiant
-├── CV-Adrien.pdf           # CV téléchargeable
+├── CV-Hafsa.pdf           # CV téléchargeable
 └── favicon.ico
 ```
 
