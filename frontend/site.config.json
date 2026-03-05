@@ -117,7 +117,7 @@
 		"php": { "icon": "devicon:php", "label": "PHP" },
 		"dotNet": { "icon": "skill-icons:dotnet", "label": "Dotnet" },
 		"css": { "icon": "devicon:css3", "label": "CSS" },
-		"scss": { "icon": "vscode-icons:file-type-scss", "label": "SCSS" },
+		"c": { "icon": "streamline-logos:c-language-logo-solid", "label": "C" },
 		"docker": { "icon": "devicon:docker", "label": "Docker" },
 		"prisma": { "icon": "devicon:prisma", "label": "Prisma" },
 		"cloudflare": { "icon": "devicon:cloudflare", "label": "Cloudflare" },
@@ -136,7 +136,7 @@
 		"github": { "icon": "iconoir:github", "label": "GitHub" },
 		"bun": { "icon": "devicon:bun", "label": "Bun" },
 		"npm": { "icon": "devicon:npm", "label": "npm" },
-		"pnpm": { "icon": "devicon:pnpm", "label": "pnpm" }
+		"robotic": { "icon": "hugeicons:robotic", "label": "Robotic" }
 	},
 
 	"technologiesBanner": [
@@ -272,24 +272,24 @@
 			{
 				"id": "Mobilex ",
 				"title": "Projet mobilex",
-				"description": " Projet de robotique utilisant visant à concevoir un robot mobile capable de réaliser un stationnement automatique à l’aide de capteurs. Le robot Mobilex peut également être piloté manuellement via une télécommande infrarouge, permettant d’alterner entre mode autonome et contrôle utilisateur.",
-				"technologies": ["dart", "flutter", "android"],
+				"description": " Projet de robotique utilisant LEGO Mindstorms EV3 afin de concevoir un robot mobile capable de réaliser un stationnement automatique à l’aide de capteurs. Le robot Mobilex peut également être piloté manuellement via une télécommande infrarouge, permettant d’alterner entre mode autonome et contrôle utilisateur.",
+				"technologies": ["Robotic", "C"],
 				"links": {
-					"github": "https://github.com/ADsglt77/bibliotheque"
+					"github": "https://github.com/Hadis010/Mobilex-Project/"
 				},
-				"video": "/projects/videos/bibliotheque.mp4",
-				"poster": "/projects/poster/bibliotheque.jpg"
+				"video": "/projects/videos/mobilex.mp4",
+				"poster": "/projects/poster/mobilex.jpg"
 			},
 			{
-				"id": "jardinier",
-				"title": "Projet Jardinier",
+				"id": "space invaders",
+				"title": "Projet Space invaders",
 				"description": "Cet atelier professionnel a pour but de réaliser une application web, à l'aide du Framework PHP Symfony. Cette application reprend le contexte d'un site de jardinerie, qui doit permettre de pourvoir créer des devis avec un ou plusieurs taillages de haies dans le même devis.",
 				"technologies": ["php", "symfony", "css"],
 				"links": {
-					"github": "https://github.com/ADsglt77/jardinierV2"
+					"github": "https://github.com/Hadis010/Space-Invaders-Project/"
 				},
-				"video": "/projects/videos/jardinier.mp4",
-				"poster": "/projects/poster/jardinier.jpg"
+				"video": "/projects/videos/space_invaders.mp4",
+				"poster": "/projects/poster/space_invaders.jpg"
 			},
 			{
 				"id": "resto",
