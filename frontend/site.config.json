@@ -310,7 +310,7 @@
 			},
 			{
 				"id": "bijoux-recycles",
-				"title": "BijouRecycle — Site association Bijoux Recyclés",
+				"title": "Bijoux Recyclés — Site pour une association fictive",
 				"description": "Site vitrine et back-office pour une association qui recycle des bijoux au profit d’associations caritatives. Présentation de l’association, catalogue de bijoux recyclés, actualités, témoignages, événements et FAQ. Formulaire d’inscription, récapitulatif des sujets/fiches issus de la base, et espace administrateur (connexion, gestion des sujets et des comptes). Réalisé en PHP avec MySQLi, interface basée sur Bootstrap et un template Mobirise, avec JavaScript pour les animations et les galeries.",
 				"technologies": [
 					"php",
