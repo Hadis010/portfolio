@@ -1,0 +1,23 @@
+{
+	"name": "portfoliov2",
+	"private": true,
+	"workspaces": [
+		"frontend",
+		"backend"
+	],
+	"scripts": {
+		"check": "bun run check:biome && bun run check:knip",
+		"check:biome": "biome check .",
+		"check:knip": "knip",
+		"format": "biome format . --write",
+		"lint": "biome check . --write",
+		"build": "bun run build --cwd frontend",
+		"dev": "concurrently \"bun run --cwd frontend dev\" \"bun run --cwd backend dev\""
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^2.3.15",
+		"concurrently": "^9.2.1",
+		"knip": "^5.83.1",
+		"typescript": "^5.9.3"
+	}
+}

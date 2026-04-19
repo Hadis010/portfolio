@@ -1,0 +1,17 @@
+{
+	"name": "backend",
+	"version": "1.0.50",
+	"scripts": {
+		"dev": "bun run --watch src/index.ts",
+		"build": "bun build src/index.ts --target bun --minify --outdir dist",
+		"start": "bun dist/index.js"
+	},
+	"dependencies": {
+		"@elysiajs/cors": "^1.4.1",
+		"elysia": "latest"
+	},
+	"devDependencies": {
+		"bun-types": "latest"
+	},
+	"packageManager": "bun@1.3.9"
+}
